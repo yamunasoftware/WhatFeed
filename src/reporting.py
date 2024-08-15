@@ -53,10 +53,13 @@ def visualize_cluster_matrix(paired_matrix):
   
   plt.figure(figsize=(10,5))
   plt.bar(words, counts, width=0.1)
+
   plt.xlabel('Words')
   plt.ylabel('Counts')
   plt.title('Sample of Words and Occurrences')
-  plt.show()
+  
+  plt.savefig('words.png', bbox_inches='tight')
+  plt.close()
 
 # Summarization Processing:
 def summarization_processing(data):
