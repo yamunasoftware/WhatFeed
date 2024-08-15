@@ -14,10 +14,12 @@ To use the application, simple use the Bash or Batch files listed in the main di
 
 - requests
 - beautifulsoup4
+- matplotlib
 
 To install these dependencies simply run the ```pip``` commands listed below.
 
 ```
 pip install requests
 pip install beautifulsoup4
+pip install matplotlib
 ```

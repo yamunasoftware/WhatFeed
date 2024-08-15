@@ -1,6 +1,7 @@
-import string
-
 ### PROCESSING SETUP ###
+
+# Import String Items:
+import string
 
 # Python array of English letters, number digits, currency symbols, and punctuation marks:
 characters = [
@@ -13,7 +14,11 @@ characters = [
 
 # Removal Sets:
 punctuation = list(string.punctuation)
-stops = set(['the', 'a', 'an', 'i', 'he', 'she', 'they', 'to', 'of', 'it', 'from', 's', 'is', 'in', 'on', 'with', 'for', 'how', 'as', 'at', 'be', 'have', 'has', 'had', 'and', 'are', 'by', 'says', 'over', 'us', 'can'])
+stops = set([
+  'after','the', 'a', 'an', 'i', 'he', 'she', 'they', 'to', 'of', 'it', 'from', 's', 'is', 'in', 'on', 'with', 'for', 
+  'how', 'as', 'at', 'be', 'have', 'has', 'had', 'and', 'are', 'by', 'says', 'over', 'us', 'can', 'what', 'why', 'about',
+  'where', 'around', 'up'
+])
 
 ### PROCESSING FUNCTIONS ###
 

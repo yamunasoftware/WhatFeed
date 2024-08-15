@@ -1,3 +1,5 @@
+### SCRAPING IMPORTS ###
+
 import processing
 import requests
 from bs4 import BeautifulSoup
