@@ -1,3 +1,6 @@
 @echo off
 
-python src/reporting.py
+echo Started.
+echo %time%
+python src\reporting.py
+echo %time%
