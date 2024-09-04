@@ -17,7 +17,7 @@ punctuation = list(string.punctuation)
 stops = set([
   'after','the', 'a', 'an', 'i', 'he', 'she', 'they', 'to', 'of', 'it', 'from', 's', 'is', 'in', 'on', 'with', 'for', 
   'how', 'as', 'at', 'be', 'have', 'has', 'had', 'and', 'are', 'by', 'says', 'over', 'us', 'can', 'what', 'why', 'about',
-  'where', 'around', 'up'
+  'where', 'around', 'up', 'who', 'that', 'new', 'among'
 ])
 
 ### PROCESSING FUNCTIONS ###
