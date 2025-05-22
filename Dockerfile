@@ -4,4 +4,4 @@ USER root
 COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
-CMD [ "bash", "process.sh" ]
+CMD [ "bash", "whatfeed.sh" ]
